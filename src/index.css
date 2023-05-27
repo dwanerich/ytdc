@@ -57,9 +57,10 @@ code {
       animation: 500ms ease-in-rgba(252, 4, 206, 0.503)ning fadeInDown;
     }
     .headers {
-      font-family: 'Montserrat', sans-serif;
-      font-weight:lighter;
+      /* font-family: 'Montserrat', sans-serif;
+      font-weight:lighter; */
       text-align: center;
+      width: 75%;
     }
 
     .team-img {

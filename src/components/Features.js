@@ -27,7 +27,7 @@ const Features = () => {
     <div className='container-fluid'>
       <center>
         <hr />
-      <img src={highlights} />
+      <img src={highlights} className="headers"/>
       <hr />
       </center> <br />
       {/* <h2 className="headers">HIGHLIGHTS</h2> */}
