@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +14,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+    position: sticky;
+    justify-content: center;
+
+    align-items: center;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+    background-color: #000000 !important;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    }
+
+    .col-sm {
+      margin: 10px;
+      text-align: center;
+    }
+
+
+    .feat-img {
+      width: 400px;
+      height: 225px;
+      background-size: cover;
+      border: solid 1px white;
+      border-radius: 15px;
+      padding: 10px;
+      background-repeat: no-repeat;
+      background-position: center;
+      object-fit: cover;
+      object-fit: fill;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .feat-img:hover {
+      border-radius: 15px;
+      box-shadow: 0 2px 20px 0 rgba(241, 20, 204, 0.503);
+      animation: 500ms ease-in-rgba(252, 4, 206, 0.503)ning fadeInDown;
+    }
+    .headers {
+      font-family: 'Montserrat', sans-serif;
+      font-weight:lighter;
+      text-align: center;
+    }
+
+    .team-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      background-size: cover;
+      border: solid 1px white;
+      padding: 2%;
+      background-repeat: no-repeat;
+      background-position: center;
+      object-fit: cover;
+      object-fit: fill;
+      text-align: center;
+    }
+
+    .team-img:hover {
+      box-shadow: 0 2px 40px 0 rgba(241, 20, 204, 0.503);
+      animation: 500ms ease-in-rgba(252, 4, 206, 0.503)ning fadeInDown;
+    }

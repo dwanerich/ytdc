@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Wpix from './components/Wpix';
+import Features from './components/Features'
+import Nav from './components/Nav';
+import Team from './components/Team';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <Nav />
+      <Wpix />
+      <Features />
+      <Team />
+       <Routes>
+       <Route exact path="/nav" element={<Nav />} />
+      <Route exact path="/wpix" element={<Wpix />} />
+      <Route exact path="/features" element={<Features />} />
+      <Route exact path="/team" element={<Team />} />
+      </Routes>
     </div>
   );
 }
