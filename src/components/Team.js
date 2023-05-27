@@ -34,7 +34,7 @@ const Team = () => {
     }
   ]
   return (
-    <div className='container'>
+    <div className='container-fluid'>
       <center>
       {/* <img src={team}/> */}
       <h1 className='headers'>THE TEAM</h1>
@@ -50,7 +50,7 @@ const Team = () => {
       </div>
     ))}
     </div>
-    <Footer />
+    {/* <Footer /> */}
   </div>
 );
 };

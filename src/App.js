@@ -7,7 +7,7 @@ import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="container-fluid">
+    <div className="container-jumbo">
       <Nav />
       <Wpix />
       <Features />

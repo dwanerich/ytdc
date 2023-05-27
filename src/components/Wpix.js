@@ -8,6 +8,7 @@ const Wpix = () => {
   return (
     <div className="container-fluid">
         <br /> <br />
+        <center>
         <iframe
         style={{
           width: '350px',
@@ -20,6 +21,7 @@ const Wpix = () => {
         allowFullScreen
         autoPlay
       />
+        </center>
     </div>
   );
 }
