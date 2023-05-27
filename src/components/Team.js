@@ -36,8 +36,8 @@ const Team = () => {
   return (
     <div className='container-fluid'>
       <center>
-      {/* <img src={team}/> */}
-      <h1 className='headers'>THE TEAM</h1>
+        <hr />
+      <img src={team}/>
       </center>
       <hr />
       <div className='row'>

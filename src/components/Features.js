@@ -3,6 +3,7 @@ import img1 from '../img/wpix-logo.png'
 import img2 from '../img/spectrum.png'
 import img3 from '../img/barclays-logo.jpeg'
 import img4 from '../img/Nassau.png'
+import highlights from '../img/highlights.png'
 
 
 
@@ -24,7 +25,12 @@ const Features = () => {
 
   return (
     <div className='container-fluid'>
-      <h2 className="headers">HIGHLIGHTS</h2>
+      <center>
+        <hr />
+      <img src={highlights} />
+      <hr />
+      </center> <br />
+      {/* <h2 className="headers">HIGHLIGHTS</h2> */}
       <div className='row'>
     {teamData.map((person, index) => (
       <div key={index} className='col-sm'>

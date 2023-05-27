@@ -10,3 +10,7 @@
   font-family: 'Montserrat', sans-serif;
   color: white;
 }
+
+.container-fluid {
+  margin-bottom: 75px;
+}
